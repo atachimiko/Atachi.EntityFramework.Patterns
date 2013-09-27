@@ -4,41 +4,42 @@ using System.Data.Objects;
 
 namespace EntityFramework.Patterns
 {
-    public class DbContextAdapter : IObjectSetFactory, IObjectContext
-    {
-        private readonly ObjectContext _context;
+	public class DbContextAdapter : IObjectSetFactory, IObjectContext
+	{
+		private readonly DbContext _context;
 
-        public DbContextAdapter(DbContext context)
-        {
-            _context = context.GetObjectContext();
-        }
+		public DbContextAdapter(DbContext context)
+		{
+			_context = context;
+		}
 
-        #region IObjectContext Members
+		#region IObjectContext Members
 
-        public void SaveChanges()
-        {
-            _context.SaveChanges();
-        }
+		public void SaveChanges()
+		{
+			_context.SaveChanges();
+		}
 
-        #endregion
+		#endregion
 
-        #region IObjectSetFactory Members
+		#region IObjectSetFactory Members
 
-        public void Dispose()
-        {
-            _context.Dispose();
-        }
+		public void Dispose()
+		{
+			_context.Dispose();
+		}
 
-        public IObjectSet<T> CreateObjectSet<T>() where T : class
-        {
-            return _context.CreateObjectSet<T>();
-        }
+		public IDbSet<T> CreateObjectSet<T>() where T : class
+		{
+			return _context.Set<T>();
+		}
 
-        public void ChangeObjectState(object entity, EntityState state)
-        {
-            _context.ObjectStateManager.ChangeObjectState(entity, state);
-        }
+		public void ChangeObjectState(object entity, EntityState state)
+		{
+			var d = _context.GetObjectContext();
+			d.ObjectStateManager.ChangeObjectState(entity, state);
+		}
 
-        #endregion
-    }
+		#endregion
+	}
 }
