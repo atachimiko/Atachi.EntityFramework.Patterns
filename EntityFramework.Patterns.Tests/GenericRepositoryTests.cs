@@ -17,6 +17,9 @@ namespace EntityFramework.Patterns.Tests
         [TestFixtureSetUp]
         public void CreateContext()
         {
+			string personalDirectoryPath = System.Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+			AppDomain.CurrentDomain.SetData("DataDirectory", personalDirectoryPath);
+
             _ctx = new Context();
             _adp = new DbContextAdapter(_ctx);
 

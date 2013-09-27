@@ -19,6 +19,9 @@ namespace EntityFramework.Patterns.Tests
         [TestFixtureSetUp]
         public void Init()
         {
+			string personalDirectoryPath = System.Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+			AppDomain.CurrentDomain.SetData("DataDirectory", personalDirectoryPath);
+
             AppDomain.CurrentDomain.SetPrincipalPolicy(PrincipalPolicy.WindowsPrincipal);
 
             ArchivableEntity ent1 = new ArchivableEntity {Value = 11};
