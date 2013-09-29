@@ -83,11 +83,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EntityFramework.Patterns\EntityFramework.Patterns.csproj">
-      <Project>{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B}</Project>
+      <Project>{990f3e58-0af3-46bc-bbf7-3b55da538b9b}</Project>
       <Name>EntityFramework.Patterns</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Libs\Afterthought\Afterthought.Amender.exe" />
     <Content Include="Libs\Afterthought\Afterthought.dll" />

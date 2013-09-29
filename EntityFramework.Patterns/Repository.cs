@@ -11,6 +11,7 @@ namespace EntityFramework.Patterns
 	public class Repository<T> : IRepository<T> where T : class
 	{
 		private readonly IDbSet<T> _objectSet;
+		//private readonly IObjectSet<T> _objectSet;
 		private readonly IObjectSetFactory _objectSetFactory;
 
 		public Repository(IObjectSetFactory objectSetFactory)
