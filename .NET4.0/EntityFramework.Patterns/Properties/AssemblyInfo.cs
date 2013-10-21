@@ -6,7 +6,7 @@ using EntityFramework.Patterns;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("EntityFramework.Patterns")]
+[assembly: AssemblyTitle("At.EntityFramework.Patterns")]
 [assembly: AssemblyDescription("Provides different patterns to be used with Entity Framework >= 4.2")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Fabrice Michellonet")]
@@ -36,5 +36,5 @@ using EntityFramework.Patterns;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("0.7.0.*")]
+[assembly: AssemblyVersion("1.0.0.*")]
 [assembly: Amend]

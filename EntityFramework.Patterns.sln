@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Patterns", "EntityFramework.Patterns\EntityFramework.Patterns.csproj", "{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Patterns", ".NET4.0\EntityFramework.Patterns\EntityFramework.Patterns.csproj", "{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Patterns.Tests", "EntityFramework.Patterns.Tests\EntityFramework.Patterns.Tests.csproj", "{EEEB5366-C81E-4563-994A-C7FAA0D1F3F8}"
 EndProject
@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C73759
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET4.0", ".NET4.0", "{03FCE1C3-21E5-44B1-99F7-182A5B04ACEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET4.5", ".NET4.5", "{CD8889FC-CB5E-4E46-B826-61D30973F175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Patterns", ".NET4.5\EntityFramework.Patterns\EntityFramework.Patterns.csproj", "{BC8878E1-140E-4E68-9F53-1208BE4911C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,8 +32,16 @@ Global
 		{EEEB5366-C81E-4563-994A-C7FAA0D1F3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEEB5366-C81E-4563-994A-C7FAA0D1F3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEEB5366-C81E-4563-994A-C7FAA0D1F3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B} = {03FCE1C3-21E5-44B1-99F7-182A5B04ACEE}
+		{BC8878E1-140E-4E68-9F53-1208BE4911C8} = {CD8889FC-CB5E-4E46-B826-61D30973F175}
 	EndGlobalSection
 EndGlobal

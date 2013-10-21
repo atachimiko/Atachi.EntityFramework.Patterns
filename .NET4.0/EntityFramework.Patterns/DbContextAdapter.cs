@@ -1,6 +1,5 @@
 ﻿using System.Data;
 using System.Data.Entity;
-using System.Data.Objects;
 
 namespace EntityFramework.Patterns
 {
