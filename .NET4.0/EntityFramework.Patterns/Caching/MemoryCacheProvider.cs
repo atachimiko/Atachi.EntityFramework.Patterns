@@ -1,9 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data.Entity.Core.Objects;
 using System.Linq;
 using System.Runtime.Caching;
+#if EF5
+using System.Data.Objects;
+#else
+using System.Data.Entity.Core.Objects;
+#endif
 
 namespace EntityFramework.Patterns.Caching
 {

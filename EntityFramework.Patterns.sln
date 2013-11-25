@@ -18,6 +18,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET4.5", ".NET4.5", "{CD88
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Patterns", ".NET4.5\EntityFramework.Patterns\EntityFramework.Patterns.csproj", "{BC8878E1-140E-4E68-9F53-1208BE4911C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF5", "EF5", "{8B40ADFB-8E22-4DD7-86F0-7720FAB7EEC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET4.0", ".NET4.0", "{CAFB7ABE-603E-4A5B-B8EC-840E1D9F2E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Patterns", "EF5\.NET4.0\EntityFramework.Patterns\EntityFramework.Patterns.csproj", "{71837A8E-2E3D-4B35-A87C-7030FA033B76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +42,10 @@ Global
 		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC8878E1-140E-4E68-9F53-1208BE4911C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71837A8E-2E3D-4B35-A87C-7030FA033B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71837A8E-2E3D-4B35-A87C-7030FA033B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71837A8E-2E3D-4B35-A87C-7030FA033B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71837A8E-2E3D-4B35-A87C-7030FA033B76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +53,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{990F3E58-0AF3-46BC-BBF7-3B55DA538B9B} = {03FCE1C3-21E5-44B1-99F7-182A5B04ACEE}
 		{BC8878E1-140E-4E68-9F53-1208BE4911C8} = {CD8889FC-CB5E-4E46-B826-61D30973F175}
+		{CAFB7ABE-603E-4A5B-B8EC-840E1D9F2E7D} = {8B40ADFB-8E22-4DD7-86F0-7720FAB7EEC2}
+		{71837A8E-2E3D-4B35-A87C-7030FA033B76} = {CAFB7ABE-603E-4A5B-B8EC-840E1D9F2E7D}
 	EndGlobalSection
 EndGlobal
