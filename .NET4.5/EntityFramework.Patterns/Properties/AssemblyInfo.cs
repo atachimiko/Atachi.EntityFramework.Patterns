@@ -7,11 +7,11 @@ using EntityFramework.Patterns;
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
 [assembly: AssemblyTitle("At.EntityFramework.Patterns")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Provides different patterns to be used with Entity Framework >= 6.1")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("EntityFramework.Patterns")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,6 @@ using EntityFramework.Patterns;
 // すべての値を指定するか、下のように '*' を使ってビルドおよびリビジョン番号を 
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.1.*")]
-[assembly: AssemblyFileVersion("1.1.1.0")]
+[assembly: AssemblyVersion("1.2.0.*")]
+[assembly: AssemblyFileVersion("1.2.0.0")]
 [assembly: Amend]
