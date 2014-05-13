@@ -6,10 +6,10 @@ using EntityFramework.Patterns;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("At.EntityFramework.Patterns")]
+[assembly: AssemblyTitle("Atachi.EntityFramework.Patterns")]
 [assembly: AssemblyDescription("Provides different patterns to be used with Entity Framework >= 6.1")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("atachimiko")]
 [assembly: AssemblyProduct("EntityFramework.Patterns")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
