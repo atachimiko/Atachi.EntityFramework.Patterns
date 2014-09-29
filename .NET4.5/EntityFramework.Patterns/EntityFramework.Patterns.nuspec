@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Atachi.EntityFramework.Patterns.nuspec</id>
+    <version>$version$</version>
+    <title>Atachi.EntityFramework.Patterns.nuspec</title>
+    <authors>atachimiko</authors>
+    <owners></owners>
+    <description>
+      Atachimiko用 EntityFramework Patternsライブラリ
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Atachimiko用 EntityFramework Patternsライブラリ
+    </summary>
+    <language>ja-JP</language>
+    <projectUrl>https://nuget.org/packages/Atachi.Common.nuspec</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright 2014 atachimiko</copyright>
+    <references></references>
+    <dependencies>
+        <dependency id="Afterthought" version="[1.0.8)" />
+        <dependency id="EntityFramework" version="[6.1.1]" />
+    </dependencies>
+    <tags></tags>
+  </metadata>
+</package>
